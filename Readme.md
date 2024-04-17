@@ -2,6 +2,8 @@
 
 Welcome to our **Contact Management System** web application! This powerful tool allows users to efficiently manage their contacts with various functionalities. Let's get started! 🚀
 
+Developed By: Pradeep Panja c0864407 and Aishwinder Singh - c0866875
+
 ## Getting Started
 
 To run this application locally on your PC, follow these steps:
