@@ -17,7 +17,7 @@ To run this application locally on your PC, follow these steps:
 2. **Navigate to the Project Directory**:
    - Move into the project directory using the `cd` command:
      ```bash
-     cd contact-management-system
+     cd contact_manager_project
      ```
 
 3. **Set Up Virtual Environment (Optional but Recommended)**:
@@ -56,7 +56,7 @@ To run this application locally on your PC, follow these steps:
      ```
 
 8. **Access the Application**:
-   - Once the server is running, open your web browser and navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) or [http://localhost:8000/](http://localhost:8000/) to access the application.
+   - Once the server is running, open your web browser and navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 
 
 9. **Register and Log In**:
    - You'll need to register as a new user and then log in to start managing your contacts.
