@@ -12,36 +12,35 @@ To run this application locally on your PC, follow these steps:
 
    - Clone this repository to your local machine using the following command:
      ```
-     git clone https://github.com/pradeepkpanja/customer_manangement_system
+     git clone <repository-url>
      ```
 
 2. **Navigate to the Project Directory:**
 
    - Move into the project directory using the `cd` command:
      ```
-     cd contact_manager-project
+     cd contact-management-system
      ```
 
 3. **Install Dependencies:**
 
    - Use npm to install the required dependencies:
      ```
-     pip install
+     npm install
      ```
 
 4. **Set Up the Database:**
-
    - Configure your database settings in the `.env` file based on the provided `.env.example`.
    - Run database migrations to set up the initial database schema:
      ```
-     py manage.py migrate
+     npm run migrate
      ```
 
 5. **Start the Development Server:**
 
    - Start the development server with the following command:
      ```
-     py manage.py runserver
+     npm start
      ```
 
 6. **Access the Application:**
