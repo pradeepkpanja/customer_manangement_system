@@ -1,0 +1,31 @@
+{% extends 'webapp/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<body>
+    <div class="container bg-light shadow-md p-5 form-layout">
+
+        <h3> Update Record</h3>
+        <h6>Start updating your record below.</h6>
+        
+
+        <hr>
+        <br>
+
+        <form method="post">
+            {% csrf_token %}
+
+            {{ form|crispy }}
+            <br>
+
+            <button type="submit" class="btn btn-info">Update Record &nbsp; <i class="fa fa-plus"></i></button>
+            &nbsp; <a href="{% url 'dashboard' %}" class="btn btn-secondary"> Go Back &nbsp;<i class="fa fa-arrow-left"></i> </a>
+
+            &nbsp;
+        </form>
+        </div>
+        <br>
+</body>
+
+{% endblock %}

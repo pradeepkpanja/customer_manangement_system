@@ -1,0 +1,17 @@
+
+.form-layout{
+    border-radius: 15px;
+    width: 600px;
+
+}
+
+.message-text{
+    color: white;
+}
+
+.reduce{
+    width: 20vh;
+    padding: 4px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
